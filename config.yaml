@@ -2,7 +2,7 @@ baseURL: 'https://kokkaso.github.io/myBlog'
 publishDir: docs
 languageCode: en-us
 title: my blog
-copyright: ''
+copyright: 'none'
 paginate: 6
 googleAnalytics: ''
 theme: hugo-theme-minima
