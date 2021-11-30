@@ -1,0 +1,56 @@
+baseURL: 'https://kokkaso.github.io/myBlog'
+publishDir: docs
+languageCode: en-us
+title: my blog
+copyright: ''
+paginate: 6
+googleAnalytics: ''
+theme: hugo-theme-minima
+author:
+  description: Welcome Note
+  name: ''
+  slogon: ''
+params:
+  comment: utterances
+  displayDate: yes
+  disqus:
+    shortname: hugo-minima
+  globalFontFamily: Helvatica sans-serif
+  iam: ''
+  ovo:
+    placeholder: ''
+    server: ''
+  selectable: yes
+  social:
+    - name: github
+      svg: ''
+      url: https://github.com/gisma-courses/gi-modules
+  subtitle: ''
+  switch:
+    - "\U0001F31A"
+    - "\U0001F31D"
+  timeformat: Jan 02, 2006
+  utterances:
+    issueTerm: pathname
+    repo: mygithubname/myreponame
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Categories
+      url: /categories
+      weight: 2
+    - name: Series
+      url: /series
+      weight: 3
+    - name: Tags
+      url: /tags
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+markup:
+  highlight:
+    lineNos: yes
+    noClasses: no
